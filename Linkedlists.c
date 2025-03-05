@@ -98,12 +98,12 @@ int main() {
                 break;
             case 2:
                 printf("Enter element to search: ");
-                scanf( &value);
+                scanf( "%d "&value);
                 search(value);
                    
                 break;
             case 3:
-                traverse(head);
+                traverse();
                 break;
             case 4:
                 printf("Enter element to delete: ");
