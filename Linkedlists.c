@@ -57,7 +57,7 @@ void delete(int digit) {
     struct Node* prev = NULL;
     
     if (current != NULL && current->data == digit) {
-        *head = current->next;
+        head = current->next;
         free(current);
         return;
     }
